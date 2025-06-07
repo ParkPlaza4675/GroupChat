@@ -5,9 +5,9 @@ import os
 app = Flask(__name__)
 
 # Twilio credentials
-ACCOUNT_SID = os.environ['AC59f356c3053a5c1cc3b4a1462fe44864']
-AUTH_TOKEN = os.environ['972249e79c988f7561770bd8cc7e528b']
-TWILIO_NUMBER = os.environ['+18335530340']
+ACCOUNT_SID = os.environ[AC59f356c3053a5c1cc3b4a1462fe44864]
+AUTH_TOKEN = os.environ[972249e79c988f7561770bd8cc7e528b]
+TWILIO_NUMBER = os.environ[+18335530340]
 
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
